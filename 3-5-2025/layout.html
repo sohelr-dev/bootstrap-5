@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- d-sm-block d-none means hide in small screen and show in large screen -->
+            <!--d-none means hide in all screen  -->
+            <!-- d-lg-block d-none means hide in medium screen and show in large screen -->
+            <!-- d-xl-block d-none means hide in large screen and show in extra large screen -->
+            <div class="col-lg-12 col-sm-12 col-xl-12 col-12 py-5 border-dark border">1</div>
+            <div class="col-lg-4 col-sm-6 col-xl-3 col-12 py-5 border-dark border">2</div>
+            <div class="col-lg-4 col-sm-6 col-xl-3 col-12 py-5 d-sm-block d-none border-dark border">3</div>
+            <div class="col-lg-4 col-sm-6 col-xl-3 col-12 d-lg-block d-none py-5 border-dark border">4</div>
+            <div class="col-lg-4 col-sm-6 col-xl-3 col-12 d-xl-block d-none py-5 border-dark border">5</div>
+        </div>
+    </div>
+</body>
+</html>
